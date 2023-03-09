@@ -32,7 +32,7 @@ a:active { text-decoration: none; }
         color: rgb(189 163 255);
         outline-style: none;
         background-color: #2E2E36;
-        font-size: 16;
+        font-size: 12;
         padding-left: 8px;
         padding-top: 4px;
         padding-right: 8px;
@@ -51,7 +51,7 @@ h1{
     justify-content: left;
     padding-left: 26px;
     padding-top: 26px;
-    font-size: 36px;
+    font-size: 26px;
  }
 }
 @media screen and (max-width: 600px) {
@@ -61,7 +61,7 @@ h1{
         justify-content: left;
         padding-left: 22px;
         padding-top: 16px;
-        font-size: 26px;
+        font-size: 18px;
      }
 }
 
@@ -73,7 +73,7 @@ h1{
     padding-left: 26px;
     padding-top: 12px;
     padding-right: 26px;
-    font-size: 26px;
+    font-size: 22px;
     }
 }
 
@@ -85,7 +85,7 @@ h1{
     padding-left: 22px;
     padding-top: 12px;
     padding-right: 22px;
-    font-size: 20px;
+    font-size: 16px;
     }
 }
 
@@ -106,7 +106,7 @@ h1{
     justify-content:center;
     align-items: center;
     flex-wrap: wrap;
-    font-size: 32px;
+    font-size: 26px;
   }
 }
 
@@ -121,6 +121,6 @@ h1{
         justify-content: center;
         align-items: center;
         flex-wrap: wrap;
-        font-size: 26px;
+        font-size: 18px;
       }
     }
