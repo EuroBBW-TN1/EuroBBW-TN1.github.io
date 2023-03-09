@@ -20,10 +20,10 @@ a:active { text-decoration: none; }
         outline-style: none;
         background-color: #2E2E36;
         font-size: 22;
-        padding-left: 8px;
-        padding-top: 4px;
-        padding-right: 8px;
-        padding-bottom: 4px;
+        padding-left: 12px;
+        padding-top: 12px;
+        padding-right: 12px;
+        padding-bottom: 12px;
     }
 }
 
@@ -33,10 +33,10 @@ a:active { text-decoration: none; }
         outline-style: none;
         background-color: #2E2E36;
         font-size: 12;
-        padding-left: 8px;
-        padding-top: 4px;
-        padding-right: 8px;
-        padding-bottom: 4px;
+        padding-left: 12px;
+        padding-top: 12px;
+        padding-right: 12px;
+        padding-bottom: 12px;
     }
 }
 
