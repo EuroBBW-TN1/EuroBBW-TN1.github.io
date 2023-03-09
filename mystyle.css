@@ -1,0 +1,126 @@
+a:link { text-decoration: none; }
+
+
+a:visited { text-decoration: none; }
+
+
+a:hover { text-decoration: none; }
+
+
+a:active { text-decoration: none; }
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@media screen and (min-width: 600px) {
+    a.Menu {
+        color: rgb(189 163 255);
+        outline-style: none;
+        background-color: #2E2E36;
+        font-size: 22;
+        padding-left: 8px;
+        padding-top: 4px;
+        padding-right: 8px;
+        padding-bottom: 4px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    a.Menu {
+        color: rgb(189 163 255);
+        outline-style: none;
+        background-color: #2E2E36;
+        font-size: 16;
+        padding-left: 8px;
+        padding-top: 4px;
+        padding-right: 8px;
+        padding-bottom: 4px;
+    }
+}
+
+body {
+    background-color: #2E2E36;
+  }
+
+@media screen and (min-width: 600px) {
+h1{
+    color: floralwhite;
+    font-family: "Inter", Medium;
+    justify-content: left;
+    padding-left: 26px;
+    padding-top: 26px;
+    font-size: 36px;
+ }
+}
+@media screen and (max-width: 600px) {
+    h1{
+        color: floralwhite;
+        font-family: "Inter", Medium;
+        justify-content: left;
+        padding-left: 22px;
+        padding-top: 16px;
+        font-size: 26px;
+     }
+}
+
+@media screen and (min-width: 600px) {
+    p{
+    color: floralwhite;
+    font-family: "Inter", Medium;
+    justify-content: left;
+    padding-left: 26px;
+    padding-top: 12px;
+    padding-right: 26px;
+    font-size: 26px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    p{
+    color: floralwhite;
+    font-family: "Inter", Medium;
+    justify-content: left;
+    padding-left: 22px;
+    padding-top: 12px;
+    padding-right: 22px;
+    font-size: 20px;
+    }
+}
+
+.flex-container > p {
+    display: flex;
+    justify-content: space-around;
+    text-align:center;
+}
+
+@media screen and (min-width: 600px){
+.site-header__wrapper {
+    background-color: #2E2E36;
+    font-family: "Inter", Medium;
+    display: flex;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(189 163 255);
+    border-bottom-width: 4px;
+    justify-content:center;
+    align-items: center;
+    flex-wrap: wrap;
+    font-size: 32px;
+  }
+}
+
+@media screen and (max-width: 600px){
+    .site-header__wrapper {
+        background-color: #2E2E36;
+        font-family: "Inter", Medium;
+        display: flex;
+        border-bottom-style: solid;
+        border-bottom-color: rgb(189 163 255);
+        border-bottom-width: 4px;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        font-size: 26px;
+      }
+    }
